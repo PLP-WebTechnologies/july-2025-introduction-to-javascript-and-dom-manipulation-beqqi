@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Guess the hidden number</h3>
+        </header>
+        <section>
+            <div class="box" id="numberBox">?</div>
+            <div class="choices">
+                <input type="radio" id="choice1" name="choice" value="1">
+                <label for="choice1">1</label>
+                
+                <input type="radio" id="choice2" name="choice" value="2">
+                <label for="choice2">2</label>
+                
+                <input type="radio" id="choice3" name="choice" value="3">
+                <label for="choice3">3</label>
+                
+                <input type="radio" id="choice4" name="choice" value="4">
+                <label for="choice4">4</label><br>
+                
+                <button id="checkButton">Check</button>
+                <button id="changeColorButton" class="change-color-btn">Change Background</button>
+            </div>
+            <div class="feedback" id="feedback"></div>
+            <div class="score" id="score">Score: 0</div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

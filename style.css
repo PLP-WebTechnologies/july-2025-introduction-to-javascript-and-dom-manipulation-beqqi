@@ -1,0 +1,73 @@
+body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    text-align: center;
+}
+h3 {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.box {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: darkslategrey;
+}
+.choices {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+label {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lightgrey;
+    color: darkslategrey;
+}
+.feedback {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+}
+.score {
+    font-size: 20px;
+    margin: 15px;
+}
+.change-color-btn {
+    display: block;
+    margin: 20px auto;
+}
